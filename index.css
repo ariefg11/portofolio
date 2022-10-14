@@ -1,3 +1,23 @@
-body {
+* {
+  magin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+}
+.service-card {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .service-card {
+    height: 18rem;
+    width: 75%;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .service-card {
+    height: 18rem;
+    width: 100%;
+  }
 }
